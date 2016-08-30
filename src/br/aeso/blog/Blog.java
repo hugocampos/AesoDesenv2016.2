@@ -2,6 +2,9 @@ package br.aeso.blog;
 
 import java.util.ArrayList;
 
+import br.aeso.conteudo.Conteudo;
+import br.aeso.usuario.Usuario;
+
 public class Blog {
 	private String titulo;
 	private String data;
@@ -9,7 +12,6 @@ public class Blog {
 	private ArrayList<Conteudo> conteudo;
 	
 	public Blog(String titulo, String data, Usuario dono) {
-		super();
 		this.titulo = titulo;
 		this.data = data;
 		this.dono = dono;
